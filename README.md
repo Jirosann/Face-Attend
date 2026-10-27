@@ -89,12 +89,10 @@ face-attend/
 │   └── FaceAttend_ML.ipynb # Notebook untuk Google Colab
 │
 └── docs/                   # Dokumentasi
-    ├── PRD.md
-    ├── ERD_mermaid.md
-    ├── UML_1_usecase.md
-    ├── UML_2_classdiagram.md
-    ├── UML_3_sequence.md
-    └── UML_4_activity.md
+    ├── PROJECT_MANAGEMENT.md
+    ├── RISK_ANALYSIS_SECURITY.md
+    ├── SDLC_METHODOLOGY.md
+    └── TEST_REPORT.md
 ```
 
 ---
@@ -109,8 +107,8 @@ face-attend/
 ### 1. Clone & Setup
 
 ```bash
-git clone https://github.com/username/face-attend.git
-cd face-attend
+git clone https://github.com/Jirosann/Face-Attend.git
+cd Face-Attend
 ```
 
 ### 2. Setup Backend
