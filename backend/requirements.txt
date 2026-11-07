@@ -1,0 +1,21 @@
+fastapi
+uvicorn
+websockets
+opencv-python
+insightface
+onnxruntime
+numpy
+psycopg2-binary
+python-jose
+passlib
+bcrypt==4.0.1
+python-multipart
+sqlalchemy
+python-dotenv
+
+# Testing dependencies
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+httpx==0.25.1
+faker==20.1.0

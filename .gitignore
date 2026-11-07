@@ -1,0 +1,46 @@
+# Dependencies
+backend/venv/
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environment & secrets
+backend/.env
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Build / IDE
+frontend/dist/
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Data biometrik / wajah: jangan push ke publik
+ml_model/dataset/
+ml_model/embeddings.json
+ml_model/test_split.json
+ml_model/test_results.json
+ml_model/*.png
+
+# Database lokal & artefak test
+*.db
+*.sqlite
+*.sqlite3
+.coverage
+htmlcov/
+venv/
+.venv/
+
+# Foto profil pengguna (unggahan runtime)
+backend/static/avatars/*
+!backend/static/avatars/.gitkeep
+coverage.json
